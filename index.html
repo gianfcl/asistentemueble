@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> G'Asistant </title>
+	<title> ARpet </title>
 	<meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -12,7 +12,7 @@
 <style type="text/css">
 	#psuperior{
 		background: black;
-		height: 950px;
+		height: 980px;
 		width: 100%;
 	}
 	.carousel-item{
@@ -26,7 +26,7 @@
 		color: #927502 !important;
 	}
 	.tabinicio a.active{
-		color: #927502 !important;
+		color: #FFD000 !important;
 	}
 	.tabinicio a{
 		color: #fff !important;
@@ -75,6 +75,24 @@
 	  background-color:#927502;
 	}
 
+	.contenedor {
+	  position: relative;
+	  overflow: hidden;
+	  width: 100%;
+	  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+	}
+
+	/* Then style the iframe to fit in the container div with full height and width */
+	.responsive-iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 35px;
+	  bottom: 0;
+	  right: 0;
+	  width: 90%;
+	  height: 90%;
+	}
+
 
 </style>
 <script type="text/javascript">
@@ -102,7 +120,7 @@
 				<img src="img/logo.png" width="100" align="right" style="background-color: rgba(225, 225, 225, 0.6); border-radius: 40px;">
 			</div>
 			<div class="col-sm-4">
-				<h3>Mascota de Realidad Aumentada</h3>
+				<h3 style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">Mascota de Realidad Aumentada</h3>
 			</div>
 		</div>
 		<div class="row form-group">
@@ -111,13 +129,16 @@
 			<div class="col-sm-4" style="font-size: 18px;">
 				<ul class="nav tabinicio">
 				  <li class="nav-item">
-				    <a class="nav-link active" data-toggle="pill" href="#inicio"><strong>Inicio</strong></a>
+				    <a class="nav-link active" data-toggle="pill" href="#inicio"><strong style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">Inicio</strong></a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" data-toggle="pill" href="#servicios"><strong>Mascotas</strong></a>
+				    <a class="nav-link" data-toggle="pill" href="#servicios"><strong style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">Mascotas</strong></a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" data-toggle="pill" href="#informacion"><strong>Información</strong></a>
+				    <a class="nav-link" data-toggle="pill" href="#informacion"><strong style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">Info</strong></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" data-toggle="pill" href="#demo"><strong style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">Demo</strong></a>
 				  </li>
 				</ul>
 			</div>
@@ -138,10 +159,10 @@
 			    		<div class="col-sm-3">
 				    	</div>
 				    	<div class="col-sm-6" align="center">
-							<div style="border: 2px solid #fff;border-radius: 20px;margin-top: 250px; background: rgba(225, 225, 225, 0.6);">
+							<div style="border: 2px solid #fff;border-radius: 20px;margin-top: 250px; background: rgba(225, 225, 225, 0.5);">
 								<br>
-								<h3 style="color: #927502"><strong>Una compañia diferente</strong></h3>
-								<label style="color: #855D13">¿No puedes tener una mascota por falta de tiempo o espacio en casa? Te ofrecemos una solución donde esto no es impedimento para tener una buena compañia.</label>
+								<h3 style="color: #FFD000; text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;"><strong>Una compañia diferente</strong></h3>
+								<label style="color: #FFD000; text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">¿No puedes tener una mascota por falta de tiempo o espacio en casa? Te ofrecemos una solución donde esto no es impedimento para tener una buena compañia.</label>
 								<br>
 							</div>
 				    	</div>
@@ -152,9 +173,9 @@
 			    		<div class="col-sm-3">
 				    	</div>
 				    	<div class="col-sm-6" align="center">
-							<div style="border: 2px solid #fff;border-radius: 20px;margin-top: 250px; background: rgba(225, 225, 225, 0.6);">
+							<div style="border: 2px solid #fff;border-radius: 20px;margin-top: 250px; background: rgba(225, 225, 225, 0.5);">
 								<br><br>
-								<h3 style="color: #927502"><strong>Revisa nuestras distintas opciones de mascotas</strong></h3>
+								<h3 style="color: #FFD000; text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;"><strong>Revisa nuestras distintas opciones de mascotas</strong></h3>
 								<br>
 							</div>
 				    	</div>
@@ -165,9 +186,9 @@
 			    		<div class="col-sm-3">
 				    	</div>
 				    	<div class="col-sm-6" align="center">
-							<div style="border: 2px solid #fff;border-radius: 20px;margin-top: 250px;background: rgba(225, 225, 225, 0.6);">
+							<div style="border: 2px solid #fff;border-radius: 20px;margin-top: 250px;background: rgba(225, 225, 225, 0.5);">
 								<br><br>
-								<h3 style="color: #927502"><strong>Interactua con tu mascota de una manera distinta</strong></h3>
+								<h3 style="color: #FFD000; text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;"><strong>Interactua con tu mascota de una manera distinta</strong></h3>
 								<br>
 							</div>
 				    	</div>
@@ -187,11 +208,11 @@
 		</div>
 		<div class="tab-pane container fade" id="servicios">
 
-			<div class="tabs" style="padding-top: 150px">
+			<div class="tabs" style="padding-top: 200px">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-2">
-							<h2>Mascotas</h2><br>
+							<h2></h2><br><br>
 							<ul class="nav nav-pills nav-stacked flex-column">
 								<li class="active"><a href="#tab_a" data-toggle="pill">Perro</a></li>
 								<li><a href="#tab_b" data-toggle="pill">Gato</a></li>
@@ -224,15 +245,19 @@
 		</div>
 
 		<div class="tab-pane container fade" id="informacion">
-			<div style="padding-top: 300px" align="center">
-				<a class="btn" href="https://drive.google.com/file/d/1O_clSZUD91PlecLaHcv-lyJOcvBYo_ZO/view?usp=sharing" style="color:#fff;background-color:#927502;border-color:#927502;border-radius: 20px !important;">
-					<span>ARpet</span>
-				</a>
-				<a class="btn" href="pitch.html" style="color:#fff;background-color:#927502;border-color:#927502;border-radius: 20px !important;" target="_blank">
-					<span>Pitch</span>
-				</a>
-				<a class="btn" href="demo.html" style="color:#fff;background-color:#927502;border-color:#927502;border-radius: 20px !important;" target="_blank">
-					<span>Demo</span>
+			<div style="padding-top: 200px"><br><br></div>
+			<div class="contenedor" align="center">
+				<iframe class="responsive-iframe" width="950" height="500" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="tab-pane container fade" id="demo">
+			<div style="padding-top: 200px"><br><br></div>
+			<div class="contenedor" align="center">
+				<iframe class="responsive-iframe" width="950" height="500" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div align="center">
+				<a class="btn" href="https://drive.google.com/uc?id=1bTs9ofbKsfTyLXzz_BK13RY5b8V67wq7&export=download" style="color:#fff;background-color:#927502;border-color:#927502;border-radius: 20px !important;">
+					<span>Descargar ARpet</span>
 				</a>
 			</div>
 		</div>
