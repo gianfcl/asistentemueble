@@ -1,5 +1,5 @@
 # asistentemueble
-<img width="557" alt="image" src="https://user-images.githubusercontent.com/38387835/197353316-4b6009ea-7187-426c-9623-ee638b46ad79.png">
-![image](https://user-images.githubusercontent.com/38387835/197353330-40731ac3-82e3-4e26-85b5-d33e99d50c7a.png)
-![image](https://user-images.githubusercontent.com/38387835/197353344-c7b68851-de46-4aa8-9cc9-a174870f44ab.png)
-![image](https://user-images.githubusercontent.com/38387835/197353348-3bac2b8c-bd36-40bf-870c-3e9250316a74.png)
+<img width="557" alt="image" src="https://user-images.githubusercontent.com/38387835/197353316-4b6009ea-7187-426c-9623-ee638b46ad79.png"><br>
+<img width="503" alt="image" src="https://user-images.githubusercontent.com/38387835/197353378-14833ecc-7c4e-452a-99be-038adb3334b5.png"><br>
+<img width="254" alt="image" src="https://user-images.githubusercontent.com/38387835/197353392-2fb71ed4-2422-4c17-9ae5-4c1212d4724d.png"><br>
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/38387835/197353416-00f37abb-000a-423a-bbcd-d64be4fbff6a.png"><br>
